@@ -3,7 +3,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 //import { StackNavigator } from '@react-navigation/stack';
 //import { createStackNavigator } from '@react-navigation/stack';
-//import { createStackNavigation } from '@react-navigation/stack';
+import { createStackNavigation } from '@react-navigation/stack';
 //import { createStack } from '@react-navigation/stack';
 
 import HomeScreen from "./screens/Home";
@@ -21,7 +21,7 @@ function App() {
       }}>
     
         {/* <Stack.Screen component="Home" name={HomeScreen} /> */}
-        {/* <Stack.Screen name="Home" component={HomeScreen} /> */}
+        { <Stack.Screen name="Home" component={HomeScreen} /> }
         {/* <Stack.Screen name="Home" component="HomeScreen" /> */}
         {/* <Stack.Screen name:"Home" component:{HomeScreen} /> */}
     
